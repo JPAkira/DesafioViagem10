@@ -24,6 +24,10 @@ class Command(BaseCommand):
             leitor_csv = csv.reader(arquivo_csv)
 
             for linha in leitor_csv:
+                registros = len(linha)-1
+                if not (registros % 2) == 0:
+                    erros.append(f"O arquivo deve conter Eleitorado, uma sequência de 2 valores 'votos' 'partido'")
+                    return print(erros)
                 votos = iter(linha[1:])
                 for voto in votos:
                     
