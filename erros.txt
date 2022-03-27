@@ -1,0 +1,6 @@
+
+ 48w29: Tipo de variável inválido. Somente inteiro é válido
+ 48w29: Tipo de variável inválido. Somente inteiro é válido
+None: Partido não existente
+ 48w29: Tipo de variável inválido. Somente inteiro é válido
+ELD: Partido não existente
