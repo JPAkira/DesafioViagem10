@@ -1,28 +1,27 @@
 # DesafioViagem10
 
 1. Clonar repositório:
-´´´
+```
 git clone {Link_Git}
-´´´
+```
 
 2. Criar venv
-´´´
+```
 python -m venv .venv
 .\.venv\Scripts\Activate
-´´´
+```
 
 3. Instalar requirements.txt
-´´´
+```
 pip install -r requirements.txt
-´´´
+```
 
 4. Executar o comando django.
-
-    ```
-    python manage.py import_data data.csv
-    or
-    python manage.py import_data {seu_arquivo.csv}
-    ```
+```
+python manage.py import_data data.csv
+or
+python manage.py import_data {seu_arquivo.csv}
+```
 
 5. Resultado
 
