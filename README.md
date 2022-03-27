@@ -29,7 +29,7 @@ python manage.py import_data {seu_arquivo.csv}
 ![image](https://user-images.githubusercontent.com/70785059/160304741-ed6e1b05-a83f-4f56-895d-b98407736238.png)
 
 
-#RESULTADO CSV
+# RESULTADO CSV
 
 ```
 ,Eleitorado,Votos,Partido,Partido Nome,Porcentagem
